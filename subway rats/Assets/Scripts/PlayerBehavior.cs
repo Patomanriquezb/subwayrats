@@ -49,7 +49,9 @@ public class PlayerBehavior : MonoBehaviour
 
         Debug.DrawRay(transform.position, frameMovement * 10, Color.red);
         
-        model.transform.rotation = Quaternion.LookRotation(frameMovement, Vector3.up);
+        model.transform.rotation = Quaternion.Lerp(model.transform.rotation, 
+            Quaternion.LookRotation(frameMovement, Vector3.up),
+            0.5f);
         
         if (rb.SweepTest(frameMovement, out var hit, Time.deltaTime))
         {
