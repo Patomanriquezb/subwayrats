@@ -731,6 +731,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 14.118305, y: 0.20711325, z: 1.6569195}
   m_Center: {x: 9.000001, y: 26.120682, z: 24.341873}
+--- !u!1 &97477643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa2d621a287be444f840408937b2900e, type: 3}
+  m_PrefabInstance: {fileID: 1812997507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &97477644
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97477643}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 876daf7c96491674eadb5da9fc844f45, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &106274422
 GameObject:
   m_ObjectHideFlags: 0
@@ -10217,6 +10244,55 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.7367611, y: 1.7232478, z: 0.3142662}
   m_Center: {x: -17.705185, y: 41.67957, z: 63.049385}
+--- !u!1 &1286840888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1082271958561512970, guid: fa2d621a287be444f840408937b2900e, type: 3}
+  m_PrefabInstance: {fileID: 1812997507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1286840890
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286840888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2.0549579
+  m_Direction: 1
+  m_Center: {x: -4.8037474e-10, y: -0.15700488, z: -8.2486146e-10}
+--- !u!135 &1286840891
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286840888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.9952389
+  m_Center: {x: -7.1185086e-11, y: -0.000000003545538, z: -0.49523568}
 --- !u!64 &1298340918
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14212,6 +14288,84 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1632812780183611882, guid: 870636d7f3b8d22469c9f654e1efd879, type: 3}
+--- !u!1001 &1812997507
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -17.16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.04231
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_Name
+      value: Pacing And Talking On A Phone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5465940246521907071, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5465940246521907071, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 5465940246521907071, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.19
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 97477644}
+    - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1286840890}
+    - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: fa2d621a287be444f840408937b2900e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1286840891}
+  m_SourcePrefab: {fileID: 100100000, guid: fa2d621a287be444f840408937b2900e, type: 3}
 --- !u!65 &1815034702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18727,3 +18881,4 @@ SceneRoots:
   - {fileID: 2066546816}
   - {fileID: 401843193}
   - {fileID: 1376318580}
+  - {fileID: 1812997507}
