@@ -1,22 +1,37 @@
-﻿title: Couple
+﻿title: Variables
 ---
+<<declare $ratseen to true>>
+===
+
+title: Couple
+---
+<<if $ratseen is true>>
+<<jump Couple_SeeRat>>
+<<endif>>
 Woman 1: I know we said we'd be poly, but.. I don't think I can do this.
 Woman 2: We haven't even tried. It's been two weeks. 
-Woman 1: I just don't think it's fair. You want a girlfriend and a boyfriend, but ever since you started seeing Brad, you haven't come home. I made pumpkin soup for you but you'd rather eat Taco Bell with a 5'7” man.
+Woman 1: I just don't think it's fair. 
+Woman 1: You want a girlfriend AND a boyfriend, \\n but ever since you started seeing Brad, \\n you haven't come home. 
+Woman 1: I made pumpkin soup for you but \\n you'd rather eat Taco Bell with a 5'7” man.
 Woman 2: You don't even know Brad!
-Woman 1: You haven't introduced us. You asked to be poly, Marcy, and I said yes, for you. I haven't been on dating apps, I haven't talked to anyone. I've done all of this to make you comfortable. But what about me? What about my needs?
-Woman 2: Maybe we're not on the same page about this. Brad is fun, but that's it. In the quietest hours of the evening, amidst the final rays of the sunset, I still want to eat pumpkin soup with you. 
-Woman 1: … maybe I don't want to make pumpkin soup anymore...
-Woman 1: Ugh.
+Woman 1: You haven't introduced us. You asked to be \\n poly, Marcy, and I said yes, for you. 
+Woman 1: I haven't been on dating apps, I haven't talked to anyone. 
+Woman 1: I've done all of this for you. But what about me? \\n  What about my needs?
+Woman 2: Maybe we're not on the same page about this. \\n Brad is fun, but that's it. 
+Woman 2: In the quietest hours of the evening, \\n amidst the final rays of the sunset...
+Woman 2: I still want to eat pumpkin soup with you. 
+Woman 1: ...maybe I don't want to make pumpkin soup anymore...
+Woman 2: What?
 Woman 1: I'm going to take the C train instead of the A.
-Woman 2: What? What about the Lesbian Librarians cocktail party? I don't want to go alone!
-Woman 1: Maybe you should've thought of that before getting involved with Brad.
+Woman 2: Wh- what about the Lesbian Librarians cocktail party? \\n  I don't want to go alone!
+Woman 1: Maybe you should've thought of that before \\n getting involved with Brad!
 
 ===
 
 title: Couple_SeeRat
 ---
-Woman 2: I can't have this conversation right now. We're in the subway, there's rats everywhere, and people are listening...
+Woman 2: I can't have this conversation right now. 
+Woman 2: We're in the subway, there's rats everywhere, and people are listening...
 Woman 1: No, we're having this conversation. You can't keep dodging my questions.
 Woman 2: How am I supposed to focus with that huge rat walking around!
 Woman 2: I mean, look at it! How is it even moving?
@@ -25,15 +40,19 @@ Woman 2: I mean, look at it! How is it even moving?
 
 title: Family
 ---
-Parent: The train is almost here, okay? Do you have everything? Pencils, pens, lunch? I packed your favorite snack, grapes and apple slices.
+Parent: The train is almost here, okay? Do you have everything? 
+Parent: Pencils, pens, lunch? I packed your favorite snack, grapes and apple slices.
 Child: Thank you mommy!
 Parent: Are you excited for your first day of fifth grade?
 Child: Yeah, I'm in the same class as Angelina! 
 Parent: That's great, sweetie. Tell their mom I say hello, ok?
-Child: But James is in my class, too. He laughed at me and said I'm too short. And last year he pushed me outside at recess and my tooth fell out.
-Parent: I'm sorry, sweetie. But, there have been three months of summer. Hopefully James has reflected on his behavior and now he's a little more mature.
-Parent: But if he doesn't, tell the teacher or the counselor. And tell me too. I'll have a nice chat with his father.
-Child: Ok, mommy.
+Child: But James is in my class, too. He laughed at me and said I'm too short. 
+Child: And last year he pushed me outside at recess and my tooth fell out.
+Parent: I'm sorry, sweetie. But, there have been three months of summer. 
+Parent: Hopefully James has reflected on his behavior and now he's a little more mature.
+Parent: But if he doesn't, tell the teacher or the counselor. And tell me too. 
+Parent: I'll have a nice chat with his father.
+Child: Ok, mommy!
 
 ===
 
@@ -49,11 +68,20 @@ Child: But... it's so cute...
 
 title: Girlboss
 ---
+<<if $ratseen is true>>
+<<jump Girlboss_SeeRat>>
+<<endif>>
 Girlboss: No, Mark, you're not listening. I needed those YoY ROI investment portfolio earning graphs today.
-Girlboss: Don't blame Amber for this. She consistently submits her holding period portfolio stocks graphs and charts on time. But you - this is the third time you've been late.
-Girlboss: You're on thin ice, Mark. I don't care about your Harvard MBA. Stanford Econ graduates are the real hot commodities right now. They don't need to do three lines of coke every day to do their job.
+Girlboss: Don't blame Amber for this. She consistently submits her holding period portfolio stocks graphs and charts on time. 
+Girlboss: But you - this is the third time you've been late.
+Girlboss: You're on thin ice, Mark. I don't care about your Harvard MBA. 
+Girlboss: State school quant graduates are the real hot commodities right now. 
+Girlboss: And they don't need to do three lines of coke every day to do their job.
 Girlboss: Listen. If you don't get your shit together, your LinkedIn status will change from “employed” to “looking for work.”
-Girlboss: You'll get the earning graphs submitted in the next 53 minutes? That's what I like to hear. You better get started on next week's Earnings per Share market capitalization beta alpha omega documents too. Stay overnight if you have to, I don't care. Your wife and dog can wait. 
+Girlboss: You'll get the earning graphs submitted in the next 53 minutes? 
+Girlboss: That's what I like to hear. 
+Girlboss: You better get started on next week's Earnings per Share market capitalization beta alpha omega documents too. 
+GIrlboss: Stay overnight if you have to, I don't care. Your wife and kids can wait!
 ===
 
 title: Girlboss_SeeRat
@@ -67,6 +95,9 @@ Girlboss: But if you don't get your shit together I'm hiring this rat to take yo
 
 title: Employees
 ---
+<<if $ratseen is true>>
+<<jump Employees_SeeRat>>
+<<endif>>
 Employee 1: It's definitely the 1.
 Employee 2: Nah, it's the G.
 Employee 1: I've never been assigned to the G, so I wouldn't know.
@@ -93,6 +124,9 @@ Employee 1: Love rat king.
 
 title: Students
 ---
+<<if $ratseen is true>>
+<<jump Students_SeeRat>>
+<<endif>>
 Student 1: He yelled at me.
 Student 2: What?!?
 Student 1: Yeah, and in front of the whole class too. 
@@ -122,6 +156,9 @@ Student 1: You're right. Sorry, rat.
 
 title: Bike
 ---
+<<if $ratseen is true>>
+<<jump Bike_SeeRat>>
+<<endif>>
 Guy: … God, I love you.
 Guy: Your handles… your pedals…
 Guy: But most of all…
@@ -140,6 +177,9 @@ Guy: It wishes to gnaw upon your taut, succulent leather.
 
 title: Model
 ---
+<<if $ratseen is true>>
+<<jump Model_SeeRat>>
+<<endif>>
 Photographer: Yes! Keep that pose.
 Photographer: Hold that one… Yes.
 Photographer: Vogue Bushwick is going to LOVE this.
