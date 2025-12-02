@@ -20148,7 +20148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3476a2a6b414048cc8176b4a975f7a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: YarnSpinner.AddOns.SpeechBubbles::Yarn.Unity.Addons.SpeechBubbles.BubbleDialogueView
-  bubblePrefab: {fileID: 1390350175871071377, guid: 3d135193cfde754459b1fd35d341ca90, type: 3}
+  bubblePrefab: {fileID: 1390350175871071377, guid: e24bcf9ee65e241c394bd2e9e2012938, type: 3}
   bubbleCanvas: {fileID: 284153053}
   PlayerName: Player
   autoAdvance: 1
