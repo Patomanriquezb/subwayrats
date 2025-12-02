@@ -1,6 +1,6 @@
 ﻿title: Variables
 ---
-<<declare $ratseen to true>>
+<<declare $ratseen to false>>
 ===
 
 title: Couple
