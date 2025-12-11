@@ -79,7 +79,7 @@ public class VisionCone : MonoBehaviour
     {
         print("Stopping Dialogue");
         string nodeName = dialogueRunner.Dialogue.CurrentNode;
-        if (nodeName.Contains("_SeeRat")) return;
+        if (nodeName is not null && nodeName.Contains("_SeeRat")) return;
         
         string moddedNodeName = nodeName + "_SeeRat";
 
@@ -87,13 +87,11 @@ public class VisionCone : MonoBehaviour
         
         if (dialogueRunner.Dialogue.NodeExists(moddedNodeName))
         {
-            dialogueRunner.Dialogue.Stop();
-            dialogueRunner.Dialogue.SetNode(moddedNodeName);
-            dialogueRunner.Dialogue.Continue();
+            dialogueRunner.StartDialogue(moddedNodeName);
         }
         else
         {
-            Debug.LogError($"Node {moddedNodeName} does not exist.");
+            Debug.LogWarning($"Node {moddedNodeName} does not exist.");
         }
         
     }
