@@ -56,7 +56,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 55
-  dashParticles: {fileID: 0}
 --- !u!54 &3340251793393550381
 Rigidbody:
   m_ObjectHideFlags: 0
