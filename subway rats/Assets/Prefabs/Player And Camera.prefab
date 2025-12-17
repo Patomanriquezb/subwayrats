@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3340251793393550381}
   - component: {fileID: 6669317291359218581}
   - component: {fileID: 6115681508436087223}
+  - component: {fileID: 8469223413606121420}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -56,6 +57,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 55
+  dashParticles: {fileID: 0}
 --- !u!54 &3340251793393550381
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -64,7 +66,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142444031159288500}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDamping: 1
   m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -103,7 +105,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.1
-  m_Center: {x: 0, y: 0.15, z: 0}
+  m_Center: {x: 0, y: 0.23, z: 0}
 --- !u!95 &6115681508436087223
 Animator:
   serializedVersion: 7
@@ -126,6 +128,14 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!81 &8469223413606121420
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142444031159288500}
+  m_Enabled: 1
 --- !u!1 &3456140703237508826
 GameObject:
   m_ObjectHideFlags: 0
