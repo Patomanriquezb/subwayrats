@@ -55,10 +55,13 @@ public class VisionCone : MonoBehaviour
 
     private bool CheckLineOfSight(Vector3 ratPosition)
     {
+        return true;
+        
         RaycastHit wtf = new RaycastHit();
         if (Physics.Linecast(transform.parent.position, ratPosition, out RaycastHit lineCast,  obstructionLayers,
                 QueryTriggerInteraction.Ignore))
         {
+            Debug.DrawLine(transform.parent.position, wtf.point, Color.red);
             print(lineCast.transform.name);
             return false;
         }

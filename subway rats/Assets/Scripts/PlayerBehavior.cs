@@ -64,7 +64,7 @@ public class PlayerBehavior : MonoBehaviour
 
         if (forwardHit)
         {
-            print(groundRay.transform.name);
+            //print(groundRay.transform.name);
         
             transform.position = new Vector3(transform.position.x, groundRay.point.y, transform.position.z);
 
